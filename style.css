@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+.clearfix::after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.col {
+	float: left;
+}
+
+.col-10 {
+	width: 10%;
+}
+
+.col-30 {
+	width: 30%;
+	border: 1px solid red;
+}
+
+.col-padded {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.col-40 {
+	width: 40%;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.header-menu ul li {
+	display: inline-block;
+}
+
+.header-menu .menu {
+	padding-left: 50px;
+}
+
+.header-menu .menu a {
+	text-decoration: none;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a.btn {
+	text-decoration: none;
+}
+
+.btn {
+	border-radius: 15px;
+	color: white;
+	display: inline-block;
+	line-height: normal;
+	padding: 15px;
+	border: 2px solid;
+}
+
+.btn-primary {
+	background-color: green;
+	border-color: green;
+}
+
+.cta {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	width: 50%;
+}
+
+.cta h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.btn-secondary {
+	background-color: darkblue;
+	border-color: white;
+}
+
+.jumbotron {
+	background: url('img/bg-header.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header {
+	color: white;
+	background-color: darkblue;
+}
+
+img.logo {
+	vertical-align: middle;
+}
+
+.header-menu {
+	line-height: 80px;
+	height: 80px;
+}
+
+.interstitial {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.info-image img{
+	height: 200px;
+}
+
+.info {
+	text-align: center;
+}
+
+.info-title::after {
+	display: block;
+	content: '';
+	width: 40px;
+	height: 10px;
+	background-color: gray;
+	margin: 10px auto;
+	margin-bottom: 10px;
+}
+
+.bg-gray {
+	background-color: lightgray;
+}
+
+.h-100 {
+	height: 100px;
+}
+
+.h-200 {
+	height: 200px;
+}
+
+.h-500 {
+	height: 500px;
+}
